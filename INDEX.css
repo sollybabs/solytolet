@@ -1,0 +1,92 @@
+span{
+color: rgb(11, 15, 250); 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul {
+    text-decoration: none;
+    }
+li {
+        float: left;
+        list-style-type: none;
+        
+      }
+ .large {
+    position: relative;
+    height: 400px;
+    width:2400px ; 
+}
+.small{
+    position:relative;
+
+    width: 10%;
+}
+.header{
+    position: absolute;
+    padding-top: 0%;
+    word-wrap: initial;
+    min-height: unset;
+    min-width: unset;
+}
+.head {
+    text-align: center;
+}
+.para{
+    /* height: 20px;
+    width: 20px; */
+    flex : wrap ;
+    display: flex ;
+
+}
+.mess{
+    margin:0 ;
+    height:145px ;
+    width: 174px ;
+}
+.parac{
+    text-align: center;
+}
+.advert{
+    height: 251px;
+    width: 251px;
+    /* margin-right: 1rem; */
+}
+.inline{
+    display: flex ;
+    flex-direction: column;
+}
+.column{
+ display: flex;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+}
+    
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .foot{
+      text-align: center;
+  }
+  
