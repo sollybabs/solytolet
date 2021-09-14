@@ -19,10 +19,32 @@ li {
     height: 400px;
     width:2400px ; 
 }
+.message{
+    margin: 0px;
+    width: 176px;
+    height: 137px;
+}
 .small{
     position:relative;
 
     width: 10%;
+}
+.medium{
+    position: relative;
+    height: 200px;
+    width: 400px ;
+  
+}
+.text-box{
+position: left;
+}
+.item3{
+    width:2rem;
+}
+
+#form-2{
+    margin-bottom: 2rem;
+    
 }
 .header{
     position: absolute;
@@ -89,4 +111,13 @@ li {
   .foot{
       text-align: center;
   }
+  img{
+      float:right;
+
+  }
+
+.pix-box{
+    display: flex;
+    justify-content: space-around;
+}
   
