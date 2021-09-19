@@ -18,6 +18,8 @@ li {
     position: relative;
     height: 400px;
     width:2400px ; 
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .message{
     margin: 0px;
