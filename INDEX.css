@@ -15,11 +15,14 @@ li {
         
       }
  .large {
-    position: relative;
+    position: relative; 
+    /* position:absolute; */
     height: 400px;
     width:2400px ; 
     margin-bottom: auto;
     margin-top: auto;
+    z-index: -1;
+
 }
 .message{
     margin: 0px;
