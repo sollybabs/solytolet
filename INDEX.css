@@ -1,14 +1,44 @@
-span{
-color: rgb(11, 15, 250); 
+*{
+    box-sizing: border-box;
 }
-.nav{
+P{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body{
+    background-color: #F2F2F2;
+    margin: 0em;
+}
+span{
+color: #0074F3 ;
+font-weight: bold;
+font-size: 1.2em;
+display:inline;
+}
+.mobile-menu{
+ display:inline;
+    
+}
+.container{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-ul {
+/* .nav{
+    display: none;
+} */
+a{
     text-decoration: none;
-    }
+    font-weight: bold;
+    color: rgb(10, 1, 20);
+}
+.mobile-menu{
+    cursor:pointer ;
+    height: 1.2em;
+}
 li {
         float: left;
         list-style-type: none;
