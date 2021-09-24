@@ -214,3 +214,32 @@ li:hower{
         color:white;
     }
 }
+@media only screen and (min-width:1080px) {
+    .mobile-menu{
+        display:none;
+    }
+    .nav .container {
+        display: grid;
+        grid-template-columns: 180px auto;
+    
+    }
+    .nav{
+        display:flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    a{
+        color:black ;
+        font-size: 1em;
+        padding: 0.1em 1em;
+    }
+    li:hower{
+        background: black;
+        color:white;
+    }
+}
+
