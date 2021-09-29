@@ -189,6 +189,12 @@ li {
     width: 400px ;
   
 }
+.medium-a {
+  position: relative;
+  height: 200px;
+  width: 400px ;
+
+}
 .text-box{
 position: left;
 }
@@ -336,6 +342,9 @@ float: left;
      .image  {
       display: none;
 
+    }
+    .medium-a {
+      display: none;
     }
   }
 
